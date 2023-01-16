@@ -1,0 +1,16 @@
+:root {
+  --primary: #c01c7a;
+  --secondary: #231441;
+  --light-primary: #82bdcc;
+  --light-secondary: #1f1635;
+  --shadow: #0000001c;
+  //   --primary-radius: 8px;
+}
+
+$grid-breakpoints: (
+  "xs": 0,
+  "sm": 476px,
+  "md": 768px,
+  "lg": 1000px,
+  "xl": 1300px,
+);

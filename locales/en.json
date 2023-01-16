@@ -1,0 +1,58 @@
+{
+  "validation": {
+    "required": "%{attribute} field is required",
+    "is_required": "Is Required",
+    "maxLength": "%{attribute} field must be at most %{max} characters long",
+    "minLength": "%{attribute} field must be %{min} characters at least",
+    "minImageCount": "%{attribute} field must be at least %{min} image",
+    "maxImageCount": "%{attribute} field must be less %{max} image",
+    "valid": "must be valid",
+    "number": " must be numbers",
+    "set_as_default_address": "Set as default Address",
+    "add_address": "Add New address",
+    "logout": "Logout Out",
+    "password_min": "must be 6 numbers",
+    "numeric": "must be numbers",
+    "email": "%{attribute} field is not valid Email Address",
+    "validPhoneNumber": "The phone number not valid",
+    "maxWords": "This field must be less than %{maxWords} ",
+    "validPhoneOrEmail": "Invalid Phone Or Email"
+  },
+  "buttons": {
+    "start": " Start designing",
+    "send": "Send",
+    "confirm": "Confirm"
+  },
+
+  "fields": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": " Email",
+    "message": "Message",
+    "country": "Country",
+    "city": "City",
+    "street": "District/Street",
+    "building": "Architecture/building",
+    "Flat": "Apartment (optional)"
+  },
+
+  "home": {
+    "home_title": "Create wall paintings from your memories in your own way",
+    "home_subtitle": "Just upload photos and get stylish frames that renew your surroundings"
+  },
+  "features": {
+    "first_feature": "Fast delivery",
+    "second_feature": "Complete privacy",
+    "third_feature": "without perforating the wall"
+  },
+  "subscribe": {
+    "first_subscribe": {
+      "title": "Complete privacy",
+      "description": "Your privacy is very important to us. Our female team will deal with your request from the beginning of its receipt until the sealed and special packaging, with the choice of female printing service."
+    },
+    "second_subscribe": {
+      "title": "Delivery differentiates",
+      "description": "As is the interest in the details of your moments, our delivery is no less important with the express delivery service within 24 hours. No, and we have free delivery after"
+    }
+  }
+}

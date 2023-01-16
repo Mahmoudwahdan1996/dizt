@@ -1,0 +1,39 @@
+.footer {
+  position: relative;
+  .footer--frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    img {
+      width: 100%;
+    }
+  }
+  .footer--content {
+    .footer--content-list {
+      li {
+        margin-left: 1rem;
+        &:hover i {
+          color: var(--primary);
+        }
+      }
+      a {
+        color: #231441;
+      }
+
+      a:hover {
+        color: var(--primary);
+      }
+    }
+
+    @media screen and (max-width: 525px) {
+      .footer--content-list {
+        li {
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

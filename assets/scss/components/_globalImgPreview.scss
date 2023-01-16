@@ -1,0 +1,62 @@
+// .img-preview-container {
+//   width: 80% !important;
+// }
+// .image-preview {
+//   position: relative;
+//   height: 130px;
+//   width: 100%;
+// }
+// .image-preview img {
+//   border-radius: 8px;
+//   width: 100%;
+//   height: 100%;
+// }
+// .image-preview__btn {
+//   position: absolute;
+//   background-color: #fff;
+//   top: 5px;
+// }
+// .image-preview__btn--delete {
+//   right: 5px;
+// }
+
+// .img-preview-overlay {
+//   -webkit-box-orient: vertical;
+//   -webkit-box-direction: normal;
+//   -ms-flex-direction: column;
+//   -webkit-box-pack: start;
+//   -ms-flex-pack: start;
+//   min-height: 50vh;
+//   background-color: #fff;
+//   position: relative;
+// }
+// .img-preview-container,
+// .img-preview-overlay {
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   justify-content: center;
+// }
+// .img-preview-container {
+//   -webkit-box-pack: center;
+//   -ms-flex-pack: center;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   max-height: 80vh;
+// }
+// .img-preview-img {
+//   -o-object-fit: contain;
+//   object-fit: contain;
+//   max-height: 70vh;
+//   max-width: 100%;
+// }
+// .img-preview-close {
+//   color: #9e9e9e;
+//   padding: 0.25rem;
+//   position: absolute;
+//   left: 0;
+// }
+// .img-preview-close:hover {
+//   cursor: pointer;
+// }

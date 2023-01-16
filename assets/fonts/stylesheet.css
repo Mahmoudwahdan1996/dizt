@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "JF Flat";
+  src: url("JF-Flat-Regular.ttf");
+}
+@font-face {
+  font-family: "JF Flat";
+  src: url("JF-Flat-medium.ttf");
+}
+
+@font-face {
+  font-family: "Bahij Helvetica Neue";
+  src: url("Bahij\ Helvetica\ Neue\ 55\ Roman.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Almarai", sans-serif;
+  src: url("Almarai-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Almarai", sans-serif;
+  src: url("Almarai-ExtraBold.ttf");
+}

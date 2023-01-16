@@ -1,0 +1,33 @@
+.orderTracking {
+  background-color: #fcfcfc !important;
+  height: 100vh;
+  .v-sheet.v-stepper {
+    box-shadow: none !important;
+    border-radius: 0% !important;
+  }
+
+  .devider {
+    color: #d5d5d5;
+  }
+  .cancel-order {
+    .v-btn__content {
+      font-family: "Almarai", sans-serif !important;
+    }
+  }
+
+  @media only screen and (max-width: 767.98px) {
+    .v-stepper:not(.v-stepper--vertical) .v-stepper__label {
+      display: block !important;
+    }
+    .v-stepper--alt-labels .v-stepper__step {
+      flex-basis: auto !important;
+    }
+  }
+  @media only screen and (max-width: 476px) {
+    .v-stepper__label {
+      span {
+        font-size: 12px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.testimonials {
+  .v-card__actions {
+    position: relative;
+    span {
+      font-size: 12px;
+    }
+    div {
+      width: 1.2rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      margin-left: 15px;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: var(--primary);
+    }
+    @media screen and (max-width: 525px) {
+      .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        margin-left: 8px;
+      }
+    }
+  }
+}

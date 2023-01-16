@@ -1,0 +1,14 @@
+.cropper {
+  background-color: #fff;
+  position: relative;
+
+  .cropper-image {
+    object-fit: fill;
+    .cropp-edit {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

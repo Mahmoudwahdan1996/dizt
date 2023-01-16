@@ -1,0 +1,65 @@
+.aboutus {
+  .features-wrapper {
+    position: relative;
+    width: 45%;
+    margin: auto;
+    .features-content {
+      position: relative;
+      margin: auto;
+      margin-top: 100px;
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background: url("@/assets/images/home/christopher-burns-BdVQU-NDtA8-unsplash.jpg");
+      background-position: right 35% bottom 50%;
+      background-size: cover;
+      z-index: 5;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0.5;
+      }
+
+      .features-description {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        z-index: 9;
+
+        .v-btn::before {
+          content: none;
+        }
+      }
+    }
+    .features-content--frame {
+      position: absolute;
+      z-index: 3;
+      top: -20px;
+      right: -20px;
+      width: 8rem;
+      img {
+        width: 100%;
+      }
+    }
+    &--text {
+      color: var(--light-secondary);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .features-wrapper {
+      width: 90%;
+      .features-description {
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        transform: translate(-0%, -50%);
+      }
+    }
+  }
+}

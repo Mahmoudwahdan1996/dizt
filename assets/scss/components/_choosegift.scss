@@ -1,0 +1,11 @@
+.choosegift {
+  .theme--light.v-sheet {
+    border: 1px solid #d5d5d5 !important;
+    &.active {
+      border: 1px solid var(--primary) !important;
+    }
+  }
+  .bg-gift {
+    background-color: #efefef;
+  }
+}

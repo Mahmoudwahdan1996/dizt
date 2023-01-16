@@ -1,0 +1,90 @@
+.features {
+  background-color: #fff;
+  .features-item {
+    background-color: #f9f9f9;
+    width: 8rem;
+    height: 8rem;
+    img {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  @media screen and (max-width: 525px) {
+    .features-item {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  .features-wrapper {
+    position: relative;
+    width: 45%;
+    margin: auto;
+    .features-content {
+      position: relative;
+      margin: auto;
+      margin-top: 100px;
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background: url("@/assets/images/home/christopher-burns-BdVQU-NDtA8-unsplash.jpg");
+      background-position: right 35% bottom 50%;
+      background-size: cover;
+      z-index: 5;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0.5;
+      }
+
+      .features-description {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        z-index: 9;
+
+        .v-btn::before {
+          content: none;
+        }
+      }
+    }
+    .features-content--frame {
+      position: absolute;
+      z-index: 3;
+      top: -20px;
+      right: -20px;
+      width: 8rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .features-wrapper {
+      width: 90%;
+      .features-description {
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        transform: translate(-0%, -50%);
+      }
+    }
+  }
+  .fixed-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .design-btn {
+    box-shadow: 0px -1px 6px #00000012;
+    background-color: #fff;
+  }
+}

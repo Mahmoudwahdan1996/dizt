@@ -1,0 +1,32 @@
+.subscribe {
+  .subscribe-content {
+    position: relative;
+    .subscribe-img {
+      position: relative;
+      z-index: 10;
+      img {
+        width: 100%;
+      }
+    }
+    .subscribe-content--frame {
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      z-index: 1;
+      width: 8rem;
+      img {
+        width: 100%;
+      }
+    }
+    .subscribe-content--frame-left {
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      z-index: 1;
+      width: 8rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
